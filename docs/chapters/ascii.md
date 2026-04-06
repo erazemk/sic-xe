@@ -1,0 +1,182 @@
+# ASCII Character Codes
+
+Although ASCII is not SIC-specific, SIC uses the ASCII character set (it does not support UTF-8).
+When debugging a program that processes or interacts with text, it's useful to know how that text is represented in memory, because then you can easily see where the text is originally stored and how it is handled.
+
+## Control characters
+
+<table><td>
+
+| Dec | Hex | Char  |
+|:---:|:---:|:-----:|
+|  0  |  0  |  NULL |
+|  1  |  1  |  SOH  |
+|  2  |  2  |  STX  |
+|  3  |  3  |  ETX  |
+|  4  |  4  |  EOT  |
+|  5  |  5  |  ENQ  |
+|  6  |  6  |  ACK  |
+|  7  |  7  |  BEL  |
+
+</td><td>
+
+| Dec | Hex | Char  |
+|:---:|:---:|:-----:|
+|  8  |  8  |   BS  |
+|  9  |  9  |  TAB  |
+|  10 |  A  |   LF  |
+|  11 |  B  |   VT  |
+|  12 |  C  |   FF  |
+|  13 |  D  |   CR  |
+|  14 |  E  |   SO  |
+|  15 |  F  |   SI  |
+
+</td><td>
+
+| Dec | Hex | Char  |
+|:---:|:---:|:-----:|
+|  16 |  10 |  DLE  |
+|  17 |  11 |  DC1  |
+|  18 |  12 |  DC2  |
+|  19 |  13 |  DC3  |
+|  20 |  14 |  DC4  |
+|  21 |  15 |  NAK  |
+|  22 |  16 |  SYN  |
+|  23 |  17 |  ETB  |
+
+</td><td>
+
+| Dec | Hex | Char  |
+|:---:|:---:|:-----:|
+|  25 |  19 |   EM  |
+|  26 |  1A |  SUB  |
+|  27 |  1B |  ESC  |
+|  28 |  1C |   FS  |
+|  29 |  1D |   GS  |
+|  30 |  1E |   RS  |
+|  31 |  1F |   US  |
+|  24 |  18 |  CAN  |
+
+</td></table>
+
+## Printable characters
+
+<table><td>
+
+| Dec | Hex | Char  |
+|:---:|:---:|:-----:|
+|  32 |  20 | SPACE |
+|  33 |  21 |   !   |
+|  34 |  22 |   "   |
+|  35 |  23 |   #   |
+|  36 |  24 |   $   |
+|  37 |  25 |   %   |
+|  38 |  26 |   &   |
+|  39 |  27 |   '   |
+|  40 |  28 |   (   |
+|  41 |  29 |   )   |
+|  42 |  2A |   *   |
+|  43 |  2B |   +   |
+|  44 |  2C |   ,   |
+|  45 |  2D |   -   |
+|  46 |  2E |   .   |
+|  47 |  2F |   /   |
+|  48 |  30 |   0   |
+|  49 |  31 |   1   |
+|  50 |  32 |   2   |
+|  51 |  33 |   3   |
+|  52 |  34 |   4   |
+|  53 |  35 |   5   |
+|  54 |  36 |   6   |
+|  55 |  37 |   7   |
+
+</td><td>
+
+| Dec | Hex | Char  |
+|:---:|:---:|:-----:|
+|  56 |  38 |   8   |
+|  57 |  39 |   9   |
+|  58 |  3A |   :   |
+|  59 |  3B |   ;   |
+|  60 |  3C |   <   |
+|  61 |  3D |   =   |
+|  62 |  3E |   >   |
+|  63 |  3F |   ?   |
+|  64 |  40 |   @   |
+|  65 |  41 |   A   |
+|  66 |  42 |   B   |
+|  67 |  43 |   C   |
+|  68 |  44 |   D   |
+|  69 |  45 |   E   |
+|  70 |  46 |   F   |
+|  71 |  47 |   G   |
+|  72 |  48 |   H   |
+|  73 |  49 |   I   |
+|  74 |  4A |   J   |
+|  75 |  4B |   K   |
+|  76 |  4C |   L   |
+|  77 |  4D |   M   |
+|  78 |  4E |   N   |
+|  79 |  4F |   O   |
+
+</td><td>
+
+| Dec | Hex | Char  |
+|:---:|:---:|:-----:|
+|  80 |  50 |   P   |
+|  81 |  51 |   Q   |
+|  82 |  52 |   R   |
+|  83 |  53 |   S   |
+|  84 |  54 |   T   |
+|  85 |  55 |   U   |
+|  86 |  56 |   V   |
+|  87 |  57 |   W   |
+|  88 |  58 |   X   |
+|  89 |  59 |   Y   |
+|  90 |  5A |   Z   |
+|  91 |  5B |   [   |
+|  92 |  5C |   \   |
+|  93 |  5D |   ]   |
+|  94 |  5E |   ^   |
+|  95 |  5F |   _   |
+|  96 |  60 |   `   |
+|  97 |  61 |   a   |
+|  98 |  62 |   b   |
+|  99 |  63 |   c   |
+| 100 |  64 |   d   |
+| 101 |  65 |   e   |
+| 102 |  66 |   f   |
+| 103 |  67 |   g   |
+
+</td><td>
+
+| Dec | Hex | Char  |
+|:---:|:---:|:-----:|
+| 104 |  68 |   h   |
+| 105 |  69 |   i   |
+| 106 |  6A |   j   |
+| 107 |  6B |   k   |
+| 108 |  6C |   l   |
+| 109 |  6D |   m   |
+| 110 |  6E |   n   |
+| 111 |  6F |   o   |
+| 112 |  70 |   p   |
+| 113 |  71 |   q   |
+| 114 |  72 |   r   |
+| 115 |  73 |   s   |
+| 116 |  74 |   t   |
+| 117 |  75 |   u   |
+| 118 |  76 |   v   |
+| 119 |  77 |   w   |
+| 120 |  78 |   x   |
+| 121 |  79 |   y   |
+| 122 |  7A |   z   |
+| 123 |  7B |   {   |
+| 124 |  7C |   \|  |
+| 125 |  7D |   }   |
+| 126 |  7E |   ~   |
+| 127 |  7F |  DEL  |
+
+</td></tr></table>
+
+(DEL is technically a control character, but this layout makes more sense)
